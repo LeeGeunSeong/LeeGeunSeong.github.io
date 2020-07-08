@@ -100,12 +100,14 @@ https://google.com
 
 ```　
 
+<!-- 
 {% highlight javascript linenos %}
 var foo = function(x) {
   return(x + 5);
 }
 foo(3)
 {% endhighlight %}
+ -->
 
 ```
 {% highlight javascript linenos %}
