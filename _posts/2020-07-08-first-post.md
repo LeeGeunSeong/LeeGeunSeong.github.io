@@ -2,6 +2,9 @@
 layout: post
 title: 마크다운 정리~
 # image: /img/hello_world.jpeg
+gh-repo: LeeGeunSeong/leegeunseong.github.io
+gh-badge: [star, fork, follow]
+comments: true
 ---
 
 제목(Header)
@@ -168,3 +171,28 @@ BREAK!
 
 줄바꿈 `<br>` `space 2번`
 ----
+
+{% highlight javascript linenos %}
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+{% endhighlight %}
+
+## Boxes
+You can add notification, warning and error boxes like this:
+
+### Notification
+
+{: .box-note}
+**Note:** This is a notification box.
+
+### Warning
+
+{: .box-warning}
+**Warning:** This is a warning box.
+
+### Error
+
+{: .box-error}
+**Error:** This is an error box.
