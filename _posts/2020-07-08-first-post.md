@@ -100,7 +100,20 @@ https://google.com
 
 ```　
 
+{% highlight javascript linenos %}
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+{% endhighlight %}
+
 ```
+{% highlight javascript linenos %}
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+{% endhighlight %}
 
 표(Table)
 ----
@@ -172,12 +185,7 @@ BREAK!
 줄바꿈 `<br>` `space 2번`
 ----
 
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
+
 
 ## Boxes
 You can add notification, warning and error boxes like this:
